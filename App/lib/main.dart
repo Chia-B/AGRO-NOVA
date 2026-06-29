@@ -4,6 +4,7 @@ import 'screens/seeds_screen.dart';
 import 'screens/field_map_screen.dart';
 import 'screens/statistics_screen.dart';
 import 'screens/history_screen.dart';
+import 'screens/camera_screen.dart';
 import 'utils/app_translations.dart';
 
 void main() {
@@ -82,18 +83,10 @@ class _SplashScreenState extends State<SplashScreen>
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                width: 120,
-                height: 120,
-                decoration: BoxDecoration(
-                  color: const Color(0xFF2E7D32),
-                  borderRadius: BorderRadius.circular(30),
-                ),
-                child: const Icon(
-                  Icons.agriculture,
-                  size: 70,
-                  color: Colors.white,
-                ),
+              Image.asset(
+                'assets/images/logo.png',
+                width: 200,
+                height: 200,
               ),
               const SizedBox(height: 24),
               const Text(
@@ -142,7 +135,7 @@ class _MainScreenState extends State<MainScreen> {
     StatisticsScreen(),
     HistoryScreen(),
     SeedsScreen(),
-    Placeholder(),
+    CameraScreen(),
   ];
 
   void _onItemTapped(int index) {

@@ -3,6 +3,7 @@ import 'screens/dashboard_screen.dart';
 import 'screens/seeds_screen.dart';
 import 'screens/field_map_screen.dart';
 import 'screens/statistics_screen.dart';
+import 'screens/history_screen.dart';
 import 'utils/app_translations.dart';
 
 void main() {
@@ -139,7 +140,7 @@ class _MainScreenState extends State<MainScreen> {
     DashboardScreen(),
     FieldMapScreen(),
     StatisticsScreen(),
-    Placeholder(),
+    HistoryScreen(),
     SeedsScreen(),
     Placeholder(),
   ];

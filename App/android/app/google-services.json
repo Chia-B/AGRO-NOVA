@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492387491553",
+    "project_id": "agro-nova-firebase-project",
+    "storage_bucket": "agro-nova-firebase-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492387491553:android:9b1259311cd7af2317a1a0",
+        "android_client_info": {
+          "package_name": "com.agronova.agronova_control"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQTjUxU5EH5i7Hvd9lIddntZzIhJlLGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
